@@ -1,0 +1,15 @@
+Cars with less than 1000 km
+
+SELECT * FROM `car` WHERE `km` < 1000 
+
+Customers born between 1960 - 1980
+
+SELECT * FROM `customer` WHERE `birthDate` BETWEEN '1959-12-31' AND '1979-12-31' 
+
+Customers with no Premission to get a car
+
+SELECT * FROM `premission` WHERE `pre_Status` = 1 
+
+All cars of the Station in Hernals
+
+SELECT * FROM `car` WHERE `fk_location_Id` = 1 
